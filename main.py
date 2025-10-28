@@ -3,14 +3,14 @@ import pandas as pd
 import altair as alt
 
 st.set_page_config(
-    page_title="MBTI Country Analysis",
+    page_title="Country Analysis",
     page_icon="🌍",
     layout="wide"
 )
 
-st.title("🌍 MBTI 유형별 국가 분석 대시보드")
+st.title("🌍 유형별 국가 분석 대시보드")
 st.markdown("""
-이 앱은 **국가별 MBTI 유형 분포 데이터**를 기반으로  
+이 앱은 **국가별 유형 분포 데이터**를 기반으로  
 선택한 유형이 **가장 높은 국가 TOP 10**을 시각적으로 보여줍니다.
 """)
 
